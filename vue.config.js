@@ -1,4 +1,4 @@
 module.exports = {
-    publicPath: '/project-name/',
+    publicPath: '/timer_ver2/',
     outputDir: 'docs'
   }
