@@ -1,28 +1,41 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+ <div>
+   <Clock class="clock" />
+ </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Clock from './Clock'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  components:{
+    Clock,
+  },
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+.clock {
+  width: 100%;
+  max-width: 1000px;
+  margin: 30px auto;
 }
+</style>
+ 
+ 
+<style>
+html {
+  font-size: 62.5%;
+}
+ 
+ 
+body {
+  margin: 0;
+}
+ 
+ 
+p {
+  margin: 0;
+}
+
 </style>
